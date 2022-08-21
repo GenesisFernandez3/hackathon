@@ -1,0 +1,53 @@
+<mat-stepper linear #stepper>
+  <mat-step>
+      <ng-template matStepLabel>Nivel Hades</ng-template>
+      <div class="categories" >
+        <p>Diseno</p>
+        <p>BackEnd</p>
+        <p>FrontEnd</p>
+        <p>Arquitectura</p>
+        <p>Liderazgo</p>
+      </div>
+      <div class="t-result">
+        <div class="unlock">
+        </div>
+        <div class="unlock">
+        </div>
+        <div class="lock">
+          <img src="../../../assets/candado.png">
+        </div>
+        <div class="lock">
+          <img src="../../../assets/candado.png">
+        </div>
+        <div class="unlock">
+        </div>
+      </div>
+      <div>
+        <button mat-button matStepperNext><img src="../../../assets/next-button.png" alt="Next"></button>
+      </div>
+  </mat-step>
+  <mat-step>
+      <ng-template matStepLabel>Nivel Hercules</ng-template>
+      <p>NIVEL HERCULES</p>
+      <div>
+        <button mat-button matStepperPrevious><img src="../../../assets/back-button.png" alt="Back"></button>
+        <button mat-button matStepperNext><img src="../../../assets/next-button.png" alt="Next"></button>
+      </div>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Nivel Zeus</ng-template>
+    <p>NIVEL HERCULES</p>
+    <div>
+      <button mat-button matStepperPrevious><img src="../../../assets/back-button.png" alt="Back"></button>
+      <button mat-button matStepperNext><img src="../../../assets/next-button.png" alt="Next"></button>
+    </div>
+</mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Listo</ng-template>
+    <p>Ver todo</p>
+    <div>
+      <button mat-button matStepperPrevious><img src="../../../assets/back-button.png" alt="Back"></button>
+      <button mat-button (click)="stepper.reset()"><img src="../../../assets/redo.png" alt="Reset"></button>
+    </div>
+  </mat-step>
+</mat-stepper>
