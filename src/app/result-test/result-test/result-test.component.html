@@ -1,6 +1,12 @@
-<mat-stepper linear #stepper>
+<mat-stepper linear #stepper class="stepper">
   <mat-step>
-      <ng-template matStepLabel>Nivel Hades</ng-template>
+      <ng-template matStepLabel class="level-box">
+        <span class="nivel">Nivel</span><br>
+        <span class="hades">Hades</span>
+      </ng-template>
+      <div class="arrow-container">
+        <div class="arrow"></div>
+      </div>
       <div class="categories" >
         <div *ngFor="let category of levels">
           <p class="level-text">{{category}}</p>
@@ -39,8 +45,14 @@
       </div>
   </mat-step>
   <mat-step>
-      <ng-template matStepLabel>Nivel Hercules</ng-template>
-      <div class="categories" >
+      <ng-template matStepLabel>
+        <span class="nivel">Nivel</span><br>
+        <span class="hercules">Hercules</span>
+      </ng-template>
+      <div class="arrow-container">
+        <div class="arrow"></div>
+      </div>
+      <div class="categories">
         <div *ngFor="let category of levels">
           <p class="level-text">{{category}}</p>
         </div>
@@ -79,7 +91,13 @@
       </div>
   </mat-step>
   <mat-step>
-    <ng-template matStepLabel>Nivel Zeus</ng-template>
+    <ng-template matStepLabel>
+      <span class="nivel">Nivel</span><br>
+      <span class="zeus">Zeus</span>
+    </ng-template>
+    <div class="arrow-container">
+    <div class="arrow"></div>
+    </div>
     <div class="categories" >
       <div *ngFor="let category of levels">
         <p class="level-text">{{category}}</p>
@@ -118,3 +136,4 @@
       <button mat-button (click)="stepper.reset()"><img src="../../../assets/redo.png" alt="Reset"></button>
     </div>
   </mat-step>
+</mat-stepper>

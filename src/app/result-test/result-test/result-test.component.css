@@ -20,6 +20,36 @@
     
   }
 
+  .stepper{
+    margin: 25px 20px;
+  }
+  .level-box{
+    display: flex;
+    justify-content: center;
+  }
+
+  .nivel{
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+
+  .hades, .hercules, .zeus{
+    font-size: 30px;
+    font-family: 'Roboto';
+  }
+
+  .arrow-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrow{
+    margin: 12px 0px;
+    width: 90%;
+    border-bottom: solid 1px black;
+  }
+
   .level-text{
     font-family: 'Roboto';
     font-style: normal;
