@@ -50,6 +50,12 @@
     border-bottom: solid 1px black;
   }
 
+  .icon-arrow{
+    width: 12px;
+    height: 12px;
+    margin-top: 6px;
+  }
+
   .level-text{
     font-family: 'Roboto';
     font-style: normal;
