@@ -6,19 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./result-test.component.css']
 })
 export class ResultTestComponent implements OnInit {
+  levels = ["Diseno", "FrontEnd", "BackEnd", "Arquitectura", "Liderazgo"];
   result = {
-    "level" : [{
-      "hades": {
-        "categories" : [ "Diseno", "Liderazgo" ]
-        },
-      "hercules": {
-          "categories" : [ "Backend", "Arquitectura" ]
-        },
-      "zeus": {
-          "categories" : [ "FrontEnd" ]
-        }
-      }]
-  }
+      "diseno": "hades",
+      "liderazgo": "hades",
+      "backend": "hercules",
+      "arquitectura": "hercules",
+      "frontend": "seuz"     
+  };
  
   constructor() { }
 
