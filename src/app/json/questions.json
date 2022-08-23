@@ -1,0 +1,41 @@
+{
+    "category":[
+        {
+            "filter": [
+                {"1": "Tienes algun conocimiento en Diseño/UX/UI?"},
+                {"2": "Tienes algun conocimiento en Desarrollo FrontEnd"},
+                {"3": "Tienes algun conocimiento en Desarrollo BackEnd"},
+                {"4": "Tienes algun conocimiento en Analisis de Datos"},
+                {"5": "Tienes algun conocimiento en Liderazgo"}
+            ]
+        },
+        {
+            "diseno": [
+                {"1": "Cual consideras es tu nivel de conocimiento en UI?"},
+                {"2": "Cual consideras es tu nivel de conocimiento de diseños resposive?"},
+                {"3": "Cual consideras es tu nivel de conocimiento en UX?"}
+            ],
+            "frontend": [
+                {"1": "Cual consideras es tu nivel de conocimiento en HTML y CSS?"},
+                {"2": "Cual consideras es tu nivel de conocimiento en Javascript?"},
+                {"3": "Cual consideras es tu nivel de conocimiento con algun framework de Javascript?"}
+            ],
+            "backend": [
+                {"1": "Cual consideras es tu nivel de conocimiento en Java?"},
+                {"2": "Cual consideras es tu nivel de conocimiento de algun Framework como Node.Js, Django o Spring Boot?"},
+                {"3": "Cual consideras es tu nivel de conocimiento en creacion de API?"}
+            ],
+            "analisis": [
+                {"1": "Cual consideras es tu nivel de conocimiento en Datos y algoritmos?"},
+                {"2": "Cual consideras es tu nivel de conocimiento en lenguajes como Phyton?"},
+                {"3": "Cual consideras es tu nivel de conocimiento con algun sistemas de gestion de bases de datos?"}
+            ],
+            "liderazgo": [
+                {"1": "Cual consideras es tu nivel de conocimiento en liderazgo?"},
+                {"2": "Cual consideras es tu nivel de conocimiento de coaching?"},
+                {"3": "Cual consideras es tu nivel de conocimiento en manejo de conflictos?"}
+            ]
+        }
+        
+    ]
+}

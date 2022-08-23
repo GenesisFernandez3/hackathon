@@ -7,18 +7,33 @@ import { MatMenuModule } from '@angular/material/menu'
 import {MatStepperModule} from '@angular/material/stepper';
 import { HeaderUserComponent } from './header-user/header-user/header-user.component';
 import { ResultTestComponent } from './result-test/result-test/result-test.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatRadioModule } from '@angular/material/radio';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { TestCapacidadComponent } from './test-capacidad/test-capacidad/test-capacidad.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderUserComponent,
-    ResultTestComponent
+    ResultTestComponent,
+    TestCapacidadComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatStepperModule
+    MatStepperModule,
+    MatSnackBarModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatRadioModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
